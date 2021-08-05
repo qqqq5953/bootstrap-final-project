@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/SCSS/all.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap">
+    <nav class="navbar navbar-expand-md navbar-light bg-white py-9 px-sm-12 px-9 d-flex flex-row-reverse flex-md-row">
+      <!-- md以下的購物車icon -->
+      <a class="nav-link nav-cart d-md-none d-block p-4 text-dark-green" href="#"><i
+          class="fas fa-shopping-cart"></i></a>
+      <!-- md以上的logo -->
+      <a class="navbar-brand d-md-block d-none logo-dark" href="#">
+        <img class="img-fluid" src="/images/logo-all-dark.svg" />
+      </a>
+      <!-- md以下的logo -->
+      <a class="navbar-brand d-md-none d-block logo-dark-md" href="#">
+        <img class="img-fluid" src="/images/logotype-lg-dark.svg" />
+      </a>
+      <button class="navbar-toggler navbar-menu" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item nav-item-text mr-13" id="home">
+            <a class="nav-link text-dark-green" href="#">首頁 </a>
+          </li>
+          <li class="nav-item nav-item-text mr-13">
+            <a class="nav-link text-dark-green" href="#">甜點</a>
+          </li>
+          <li class="nav-item nav-item-text mr-15">
+            <a class="nav-link text-dark-green" href="#">登入</a>
+          </li>
+          <!-- md以上的購物車icon -->
+          <li class="nav-item nav-cart d-md-block d-none">
+            <a class="nav-link text-dark-green p-4" href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="headerImg-index mx-md-12"></header>
+    <main>
+      <ul class="productType_list d-flex pl-0 mx-auto mb-9 bg-white">
+        <li class="list-unstyled vertical-writing-productType productType_item productType-featured">
+          <a href="#"
+            class="productType-cover d-flex justify-content-center align-items-center text-decoration-none"><span
+              class="mb-0 text-white h4 font-weight-light ls-1">本日精選</span>
+          </a>
+        </li>
+        <li class="list-unstyled vertical-writing-productType productType_item productType-popular">
+          <a href="#"
+            class="productType-cover d-flex justify-content-center align-items-center text-decoration-none"><span
+              class=" text-white h4 font-weight-light ls-1">人氣推薦</span></a>
+        </li>
+        <li class="list-unstyled vertical-writing-productType productType_item productType-new">
+          <a href="#"
+            class="productType-cover d-flex justify-content-center align-items-center text-decoration-none"><span
+              class=" text-white h4 font-weight-light ls-1">新品上市</span></a>
+        </li>
+      </ul>
+      <!-- 小於sm時h2標題 -->
+      <h2 class="whyMakeSnack-sm d-sm-none mx-auto">
+        <img class="img-fluid" src="/images/sm-橫式-為什麼選擇了做甜點.svg" alt="為什麼選擇了做甜點" />
+      </h2>
+      <section class="snackSection mt-sm-15 bg-light-green d-sm-flex px-sm-12 px-0 py-sm-14 py-0">
+        <div class="homeSnackImg1"></div>
+        <div
+          class="poem-content-vertical d-none d-sm-flex flex-sm-row-reverse justify-content-sm-end text-green font-weight-light py-0">
+          <p class="vertical-writing-poem mb-0 ">
+            青山依舊在，幾度夕陽紅。慣看秋月春一壺濁酒喜相逢，浪花淘盡英雄。是非轉頭空，滾滾長江東逝水，白髮漁樵江古今多少事，都付笑談中。
+          </p>
+          <p class="vertical-writing-poem mb-0">
+            是非成敗轉頭空，滾滾長江東逝水，白樵江渚上，古今多少事，都付笑談中。
+          </p>
+        </div>
+        <!-- 小於sm時文字 -->
+        <div class="poem-content-horizontal d-sm-none d-block text-green font-weight-light pl-9 pr-9 pb-9">
+          <p>青山依舊在，幾度夕陽紅。慣看秋月春風。一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+          <p class="mt-12 mb-0">是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+        </div>
+        <h2 class="whyMakeSnack d-sm-block d-none ml-auto">
+          <img class="img-fluid" src="/images/lg-為什麼選擇了做甜點.svg" alt="為什麼選擇了做甜點" />
+        </h2>
+      </section>
+      <!-- 小於sm時h2標題 -->
+      <h2 class="whyEatSnack-sm d-sm-none mb-0 mx-auto">
+        <img class="img-fluid" src="/images/sm-橫式-為什麼一定要吃甜點.svg" alt="為什麼一定要吃甜點" />
+      </h2>
+      <section class="snackSection bg-light-green d-sm-flex flex-sm-row-reverse  mt-sm-15 px-sm-12 px-0 py-sm-14 py-0">
+        <div class="homeSnackImg2"></div>
+        <h2 class="whyEatSnack d-sm-block d-none mr-12">
+          <img class="img-fluid" src="/images/lg-為什麼一定要吃甜點.svg" alt="為什麼一定要吃甜點" />
+        </h2>
+        <div
+          class="poem-content-vertical d-none d-sm-flex flex-sm-row-reverse justify-content-sm-end text-green font-weight-light py-0 mr-auto">
+          <p class="vertical-writing-poem mb-0 ">
+            青山依舊在，幾度夕陽紅。慣看秋月春一壺濁酒喜相逢，浪花淘盡英雄。是非轉頭空，滾滾長江東逝水，白髮漁樵江古今多少事，都付笑談中。
+          </p>
+          <p class="vertical-writing-poem mb-0 ml-0">
+            是非成敗轉頭空，滾滾長江東逝水，白樵江渚上，古今多少事，都付笑談中。
+          </p>
+        </div>
+        <!-- 小於sm時文字 -->
+        <div class="poem-content-horizontal d-sm-none d-block text-green font-weight-light pl-9 pr-9 pb-9">
+          <p>青山依舊在，幾度夕陽紅。慣看秋月春風。一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+          <p class="mt-12 mb-0">是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+        </div>
+      </section>
+      <h2 class="noReasonForSnack d-sm-block d-none mx-auto"></h2>
+      <!-- 小於sm時h2標題 -->
+      <h2 class="noReasonForSnack-sm d-sm-none d-block mx-auto mt-9 mb-0"></h2>
+      <section class="px-sm-12 px-9 pb-sm-13 pb-9 pt-sm-15 pt-9">
+        <ul class="list-unstyled d-flex justify-content-sm-between justify-content-center pl-0">
+          <li class="snackImg position-relative">
+            <p class="snackFeaturedTag bg-dark-green text-white text-center position-absolute">本日精選</p>
+            <a href="#" class="snackLikeBtn position-absolute text-dark-green"><i class="far fa-heart "></i></a>
+            <a href="#" class="snackLikeBtn-active position-absolute text-dark-green"><i class="fas fa-heart "></i></a>
+            <div class="snack1"></div>
+            <div class="text-dark-green p-0">
+              <div class="d-flex justify-content-around text-center ">
+                <h3
+                  class="snackName h5 card-title font-weight-light py-4 mb-0 border-light-green border-left border-right">
+                  焦糖馬卡龍</h3>
+                <span class="snackPrice card-text bg-white py-4 border-light-green border-left border-right">NT$
+                  450</span>
+              </div>
+              <a href="#"
+                class="d-block bg-light-green text-dark-green font-weight-bold h5 text-center text-decoration-none py-5 mb-0">加入購物車</a>
+            </div>
+          </li>
+          <li class="snackImg position-relative d-sm-block d-none">
+            <p class="snackFeaturedTag bg-dark-green text-white text-center position-absolute">本日精選</p>
+            <a href="#" class="snackLikeBtn position-absolute text-dark-green"><i class="far fa-heart "></i></a>
+            <a href="#" class="snackLikeBtn-active position-absolute text-dark-green"><i class="fas fa-heart "></i></a>
+            <div class="snack2"></div>
+            <div class="text-dark-green p-0">
+              <div class="d-flex justify-content-around text-center ">
+                <h3
+                  class="snackName h5 card-title font-weight-light py-4 mb-0 border-light-green border-left border-right">
+                  焦糖馬卡龍</h3>
+                <span class="snackPrice card-text bg-white py-4 border-light-green border-left border-right">NT$
+                  450</span>
+              </div>
+              <a href="#"
+                class="d-block bg-light-green text-dark-green font-weight-bold h5 text-center text-decoration-none py-5 mb-0">加入購物車</a>
+            </div>
+          </li>
+          <li class="snackImg position-relative d-sm-block d-none">
+            <p class="snackFeaturedTag bg-dark-green text-white text-center position-absolute">本日精選</p>
+            <a href="#" class="snackLikeBtn position-absolute text-dark-green"><i class="far fa-heart "></i></a>
+            <a href="#" class="snackLikeBtn-active position-absolute text-dark-green"><i class="fas fa-heart "></i></a>
+            <div class="snack3"></div>
+            <div class="text-dark-green p-0">
+              <div class="d-flex justify-content-around text-center ">
+                <h3
+                  class="snackName h5 card-title font-weight-light py-4 mb-0 border-light-green border-left border-right">
+                  焦糖馬卡龍</h3>
+                <span class="snackPrice card-text bg-white py-4 border-light-green border-left border-right">NT$
+                  450</span>
+              </div>
+              <a href="#"
+                class="d-block bg-light-green text-dark-green font-weight-bold h5 text-center text-decoration-none py-5 mb-0">加入購物車</a>
+            </div>
+
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <header class="footer-header d-sm-flex bg-dark-green py-9 justify-content-between align-items-center ">
+        <div>
+          <img class="footer-header-logo-light mr-5" src="/images/logo-light.svg" alt="logo-light">
+          <span class="mb-0 text-light-green h4 align-middle">訂閱你我的甜蜜郵件</span>
+        </div>
+        <form class="footer-inputEmail position-relative mt-9 mt-sm-0 mx-sm-0">
+          <input type="email" class="footer-input d-block bg-light-green border-0 rounded-0 mb-0 pl-13 h4">
+          <span class="footer-input-email-icon material-icons text-dark-green  position-absolute">
+            email
+          </span>
+          <a href="#" class="footer-inputBtn position-absolute text-dark-green bg-yellow"><i
+              class="fas fa-arrow-right py-7 px-8"></i></a>
+        </form>
+      </header>
+      <div class="footer-content bg-light-green text-dark-green pt-11 pb-9">
+        <div class="d-flex justify-content-between">
+          <div>
+            <img class="footer-content-logo-dark img-fluid" src="/images/logotype-lg-dark.svg" alt="logoType-lg-dark">
+            <ul class="footer-content-contact-list  list-unstyled mb-0">
+              <li>07-1234-5678</li>
+              <li>sweetaste@email.com</li>
+              <li>800 高雄市新興區幸福路 520 號</li>
+            </ul>
+          </div>
+          <div class="dayToHaveSnack d-sm-block d-none"></div>
+        </div>
+        <div class="d-sm-flex justify-content-between align-items-end mt-9">
+          <ul class="d-flex list-unstyled mb-sm-0 mb-8">
+            <li class="footer-content-socialMedia-logo mr-2"><a href="#"><img src="/images/ic-facebook.svg"
+                  alt="facebook-logo"></a>
+            </li>
+            <li class="footer-content-socialMedia-logo"><a href="#"><img src="/images/ic-line@.svg"
+                  alt="line@-logo"></a></li>
+          </ul>
+          <span>© 2018 Sweetaste* All Rights Reserved</span>
+        </div>
+      </div>
+
+
+    </footer>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/f171239f67.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="/all.js"></script>
+</body>
+
+</html>

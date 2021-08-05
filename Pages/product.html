@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/SCSS/all.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap">
+    <nav class="navbar navbar-expand-md navbar-light bg-white mx-12 py-9 px-0 d-flex flex-row-reverse flex-md-row">
+      <!-- md以下的購物車 -->
+      <a class="nav-link nav-cart d-md-none d-block p-4 text-dark-green" href="#"><i
+          class="fas fa-shopping-cart"></i></a>
+      <!-- md以上的logo -->
+      <a class="navbar-brand d-md-block d-none logo-dark" href="#">
+        <img class="img-fluid" src="/images/logo-all-dark.svg" />
+      </a>
+      <!-- md以下的logo -->
+      <a class="navbar-brand d-md-none d-block logo-dark-md" href="#">
+        <img class="img-fluid" src="/images/logotype-lg-dark.svg" />
+      </a>
+      <button class="navbar-toggler navbar-menu" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item nav-item-text mr-13" id="home">
+            <a class="nav-link text-dark-green" href="#">首頁 </a>
+          </li>
+          <li class="nav-item nav-item-text mr-13">
+            <a class="nav-link text-dark-green" href="#">甜點</a>
+          </li>
+          <li class="nav-item nav-item-text mr-15">
+            <a class="nav-link text-dark-green" href="#">登入</a>
+          </li>
+          <!-- md以上的購物車 -->
+          <li class="nav-item nav-cart d-md-block d-none">
+            <a class="nav-link text-dark-green p-4" href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="headerImg-product mx-sm-12 "></header>
+    <main class="d-md-flex px-sm-12 ">
+      <aside class="productType_aside pt-md-13 mr-7">
+        <h3 class="bg-dark-green text-light-green text-center py-5 mb-0 h4 ls-1">甜點類別</h3>
+        <ul class="productType_aside_list list-unstyled text-center border border-1 mb-0">
+          <li class="h4 py-5 mb-0 border-bottom border-1"><a href="#"
+              class="text-decoration-none text-dark-green d-block">所有甜點</a></li>
+          <li class="h4 py-5 mb-0 border-bottom border-1"><a href="#"
+              class="text-decoration-none text-dark-green d-block">本日精選</a></li>
+          <li class="h4 py-5 mb-0 border-bottom border-1"><a href="#"
+              class="text-decoration-none text-dark-green d-block">人氣推薦</a></li>
+          <li class="h4 py-5 mb-0"><a href="#" class="text-decoration-none text-dark-green d-block">新品上市</a></li>
+        </ul>
+      </aside>
+      <section class="w-100 py-md-13 py-9 ">
+        <ul class="list-unstyled d-flex flex-wrap justify-content-sm-between justify-content-center mb-0">
+          <li class="snackImg-product position-relative mb-sm-7 mb-9">
+            <p class="snackFeaturedTag-product bg-dark-green text-white text-center position-absolute">本日精選</p>
+            <a href="#" class="snackLikeBtn-product position-absolute text-dark-green"><i class="far fa-heart "></i></a>
+            <a href="#" class="snackLikeBtn-product-active position-absolute text-dark-green"><i
+                class="fas fa-heart "></i></a>
+            <div class="snack1-product"></div>
+            <div class="text-dark-green p-0">
+              <div class="d-flex justify-content-around text-center ">
+                <h3
+                  class="snackName-product h5 card-title font-weight-light py-4 mb-0 border-light-green border-left border-right">
+                  焦糖馬卡龍</h3>
+                <span class="snackPrice-product card-text bg-white py-4 border-light-green border-left border-right">NT$
+                  450</span>
+              </div>
+              <a href="#"
+                class="d-block bg-light-green text-dark-green font-weight-bold h5 text-center text-decoration-none py-5 mb-0">加入購物車</a>
+            </div>
+          </li>
+          <li class="snackImg-product position-relative mb-sm-7 mb-9">
+            <p class="snackFeaturedTag-product bg-dark-green text-white text-center position-absolute">本日精選</p>
+            <a href="#" class="snackLikeBtn-product position-absolute text-dark-green"><i class="far fa-heart "></i></a>
+            <a href="#" class="snackLikeBtn-product-active position-absolute text-dark-green"><i
+                class="fas fa-heart "></i></a>
+            <div class="snack2-product"></div>
+            <div class="text-dark-green p-0">
+              <div class="d-flex justify-content-around text-center ">
+                <h3
+                  class="snackName-product h5 card-title font-weight-light py-4 mb-0 border-light-green border-left border-right">
+                  焦糖馬卡龍</h3>
+                <span class="snackPrice-product card-text bg-white py-4 border-light-green border-left border-right">NT$
+                  450</span>
+              </div>
+              <a href="#"
+                class="d-block bg-light-green text-dark-green font-weight-bold h5 text-center text-decoration-none py-5 mb-0">加入購物車</a>
+            </div>
+          </li>
+          <li class="snackImg-product position-relative mb-sm-7 mb-9">
+            <p class="snackFeaturedTag-product bg-dark-green text-white text-center position-absolute">本日精選</p>
+            <a href="#" class="snackLikeBtn-product position-absolute text-dark-green"><i class="far fa-heart "></i></a>
+            <a href="#" class="snackLikeBtn-product-active position-absolute text-dark-green"><i
+                class="fas fa-heart "></i></a>
+            <div class="snack3-product"></div>
+            <div class="text-dark-green p-0">
+              <div class="d-flex justify-content-around text-center ">
+                <h3
+                  class="snackName-product h5 card-title font-weight-light py-4 mb-0 border-light-green border-left border-right">
+                  焦糖馬卡龍</h3>
+                <span class="snackPrice-product card-text bg-white py-4 border-light-green border-left border-right">NT$
+                  450</span>
+              </div>
+              <a href="#"
+                class="d-block bg-light-green text-dark-green font-weight-bold h5 text-center text-decoration-none py-5 mb-0">加入購物車</a>
+            </div>
+          </li>
+          <li class="snackImg-product position-relative mb-sm-7 mb-9">
+            <p class="snackFeaturedTag-product bg-dark-green text-white text-center position-absolute">本日精選</p>
+            <a href="#" class="snackLikeBtn-product position-absolute text-dark-green"><i class="far fa-heart "></i></a>
+            <a href="#" class="snackLikeBtn-product-active position-absolute text-dark-green"><i
+                class="fas fa-heart "></i></a>
+            <div class="snack4-product"></div>
+            <div class="text-dark-green p-0">
+              <div class="d-flex justify-content-around text-center ">
+                <h3
+                  class="snackName-product h5 card-title font-weight-light py-4 mb-0 border-light-green border-left border-right">
+                  焦糖馬卡龍</h3>
+                <span class="snackPrice-product card-text bg-white py-4 border-light-green border-left border-right">NT$
+                  450</span>
+              </div>
+              <a href="#"
+                class="d-block bg-light-green text-dark-green font-weight-bold h5 text-center text-decoration-none py-5 mb-0">加入購物車</a>
+            </div>
+          </li>
+          <li class="snackImg-product position-relative mb-sm-7 mb-9">
+            <p class="snackFeaturedTag-product bg-dark-green text-white text-center position-absolute">本日精選</p>
+            <a href="#" class="snackLikeBtn-product position-absolute text-dark-green"><i class="far fa-heart "></i></a>
+            <a href="#" class="snackLikeBtn-product-active position-absolute text-dark-green"><i
+                class="fas fa-heart "></i></a>
+            <div class="snack5-product"></div>
+            <div class="text-dark-green p-0">
+              <div class="d-flex justify-content-around text-center ">
+                <h3
+                  class="snackName-product h5 card-title font-weight-light py-4 mb-0 border-light-green border-left border-right">
+                  焦糖馬卡龍</h3>
+                <span class="snackPrice-product card-text bg-white py-4 border-light-green border-left border-right">NT$
+                  450</span>
+              </div>
+              <a href="#"
+                class="d-block bg-light-green text-dark-green font-weight-bold h5 text-center text-decoration-none py-5 mb-0">加入購物車</a>
+            </div>
+          </li>
+          <li class="snackImg-product position-relative mb-sm-7 mb-9">
+            <p class="snackFeaturedTag-product bg-dark-green text-white text-center position-absolute">本日精選</p>
+            <a href="#" class="snackLikeBtn-product position-absolute text-dark-green"><i class="far fa-heart "></i></a>
+            <a href="#" class="snackLikeBtn-product-active position-absolute text-dark-green"><i
+                class="fas fa-heart "></i></a>
+            <div class="snack6-product"></div>
+            <div class="text-dark-green p-0">
+              <div class="d-flex justify-content-around text-center ">
+                <h3
+                  class="snackName-product h5 card-title font-weight-light py-4 mb-0 border-light-green border-left border-right">
+                  焦糖馬卡龍</h3>
+                <span class="snackPrice-product card-text bg-white py-4 border-light-green border-left border-right">NT$
+                  450</span>
+              </div>
+              <a href="#"
+                class="d-block bg-light-green text-dark-green font-weight-bold h5 text-center text-decoration-none py-5 mb-0">加入購物車</a>
+            </div>
+          </li>
+        </ul>
+        <nav aria-label="Page navigation">
+          <ul
+            class="pagination pagination-lg pagination-product justify-content-md-end justify-content-center text-dark-green mb-0 outlin">
+            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-caret-left"></i></a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-caret-right"></i></a></li>
+          </ul>
+        </nav>
+      </section>
+    </main>
+    <footer>
+      <header class="footer-header d-sm-flex bg-dark-green py-9 justify-content-between align-items-center ">
+        <div>
+          <img class="footer-header-logo-light mr-5" src="/images/logo-light.svg" alt="logo-light">
+          <span class="mb-0 text-light-green h4 align-middle">訂閱你我的甜蜜郵件</span>
+        </div>
+        <form class="footer-inputEmail position-relative mt-9 mt-sm-0 mx-sm-0">
+          <input type="email" class="footer-input d-block bg-light-green border-0 rounded-0 mb-0 pl-13 h4">
+          <span class="footer-input-email-icon material-icons text-dark-green  position-absolute">
+            email
+          </span>
+          <a href="#" class="footer-inputBtn position-absolute text-dark-green bg-yellow"><i
+              class="fas fa-arrow-right py-7 px-8"></i></a>
+        </form>
+      </header>
+      <div class="footer-content bg-light-green text-dark-green pt-11 pb-9">
+        <div class="d-flex justify-content-between">
+          <div>
+            <img class="footer-content-logo-dark img-fluid" src="/images/logotype-lg-dark.svg" alt="logoType-lg-dark">
+            <ul class="footer-content-contact-list  list-unstyled mb-0">
+              <li>07-1234-5678</li>
+              <li>sweetaste@email.com</li>
+              <li>800 高雄市新興區幸福路 520 號</li>
+            </ul>
+          </div>
+          <div class="dayToHaveSnack d-sm-block d-none"></div>
+        </div>
+        <div class="d-sm-flex justify-content-between align-items-end mt-9">
+          <ul class="d-flex list-unstyled mb-sm-0 mb-8">
+            <li class="footer-content-socialMedia-logo mr-2"><a href="#"><img src="/images/ic-facebook.svg"
+                  alt="facebook-logo"></a>
+            </li>
+            <li class="footer-content-socialMedia-logo"><a href="#"><img src="/images/ic-line@.svg"
+                  alt="line@-logo"></a></li>
+          </ul>
+          <span>© 2018 Sweetaste* All Rights Reserved</span>
+        </div>
+      </div>
+
+
+    </footer>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/f171239f67.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="/all.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/SCSS/all.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap">
+    <nav class="navbar navbar-expand-md navbar-light bg-white py-9 px-sm-12 px-9 d-flex flex-row-reverse flex-md-row">
+      <!-- md以下的購物車 -->
+      <a class="nav-link nav-cart d-md-none d-block p-4 text-dark-green" href="#"><i
+          class="fas fa-shopping-cart"></i></a>
+      <!-- md以上的logo -->
+      <a class="navbar-brand d-md-block d-none logo-dark" href="#">
+        <img class="img-fluid" src="/images/logo-all-dark.svg" />
+      </a>
+      <!-- md以下的logo -->
+      <a class="navbar-brand d-md-none d-block logo-dark-md" href="#">
+        <img class="img-fluid" src="/images/logotype-lg-dark.svg" />
+      </a>
+      <button class="navbar-toggler navbar-menu" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item nav-item-text mr-13" id="home">
+            <a class="nav-link text-dark-green" href="#">首頁 </a>
+          </li>
+          <li class="nav-item nav-item-text mr-13">
+            <a class="nav-link text-dark-green" href="#">甜點</a>
+          </li>
+          <li class="nav-item nav-item-text mr-15">
+            <a class="nav-link text-dark-green" href="#">登入</a>
+          </li>
+          <!-- md以上的購物車 -->
+          <li class="nav-item nav-cart d-md-block d-none">
+            <a class="nav-link text-dark-green p-4" href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="checkout-success-header mb-sm-13 mx-md-12">
+      <div class="checkbox-connection form-check-inline mx-auto">
+        <!-- checkbox1 -->
+        <div class="checkbox-group">
+          <input type="checkbox" class="form-check-input position-static mr-0" id="deliveryCheckbox"
+            name="deliveryCheckbox" checked>
+          <span class="confirmCheckbox overflow-hidden position-relative">
+            <!-- 勾勾icon -->
+            <span
+              class="checkbox-group_check-Icon material-icons bg-dark-green text-light-green position-absolute">done</span>
+          </span>
+        </div>
+        <!-- checkbox2 -->
+        <div class="checkbox-group">
+          <input type="checkbox" class="form-check-input position-static mr-0" id="paymentCheckbox"
+            name="paymentCheckbox" checked>
+          <span class="confirmCheckbox overflow-hidden position-relative">
+            <!-- 勾勾icon -->
+            <span
+              class="checkbox-group_check-Icon material-icons bg-dark-green text-light-green position-absolute">done</span>
+          </span>
+        </div>
+        <!-- checkbox3 -->
+        <div class="checkbox-group">
+          <input type="checkbox" class="form-check-input position-static mr-0" id="receiptCheckbox"
+            name="receiptCheckbox" checked>
+          <span class="confirmCheckbox overflow-hidden position-relative">
+            <!-- 勾勾icon -->
+            <span
+              class="checkbox-group_check-Icon material-icons bg-dark-green text-light-green position-absolute">done</span>
+          </span>
+        </div>
+      </div>
+      <h1 class="checkout-success-title mt-9 mx-auto"></h1>
+      <button class="btn btn-yellow rounded-0 py-5 mx-auto d-sm-block d-none text-dark-green font-weight-bold"
+        type="submit">繼續逛逛</button>
+    </header>
+    <button class="btn btn-yellow rounded-0 py-5 mx-auto btn-block text-dark-green font-weight-bold d-sm-none"
+      type="submit">繼續逛逛</button>
+    <footer>
+      <header class="footer-header d-sm-flex bg-dark-green py-9 justify-content-between align-items-center ">
+        <div>
+          <img class="footer-header-logo-light mr-5" src="/images/logo-light.svg" alt="logo-light">
+          <span class="mb-0 text-light-green h4 align-middle">訂閱你我的甜蜜郵件</span>
+        </div>
+        <form class="footer-inputEmail position-relative mt-9 mt-sm-0 mx-sm-0">
+          <input type="email" class="footer-input d-block bg-light-green border-0 rounded-0 mb-0 pl-13 h4">
+          <span class="footer-input-email-icon material-icons text-dark-green  position-absolute">
+            email
+          </span>
+          <a href="#" class="footer-inputBtn position-absolute text-dark-green bg-yellow"><i
+              class="fas fa-arrow-right py-7 px-8"></i></a>
+        </form>
+      </header>
+      <div class="footer-content bg-light-green text-dark-green pt-11 pb-9">
+        <div class="d-flex justify-content-between">
+          <div>
+            <img class="footer-content-logo-dark img-fluid" src="/images/logotype-lg-dark.svg" alt="logoType-lg-dark">
+            <ul class="footer-content-contact-list  list-unstyled mb-0">
+              <li>07-1234-5678</li>
+              <li>sweetaste@email.com</li>
+              <li>800 高雄市新興區幸福路 520 號</li>
+            </ul>
+          </div>
+          <div class="dayToHaveSnack d-sm-block d-none"></div>
+        </div>
+        <div class="d-sm-flex justify-content-between align-items-end mt-9">
+          <ul class="d-flex list-unstyled mb-sm-0 mb-8">
+            <li class="footer-content-socialMedia-logo mr-2"><a href="#"><img src="/images/ic-facebook.svg"
+                  alt="facebook-logo"></a>
+            </li>
+            <li class="footer-content-socialMedia-logo"><a href="#"><img src="/images/ic-line@.svg"
+                  alt="line@-logo"></a>
+            </li>
+          </ul>
+          <span>© 2018 Sweetaste* All Rights Reserved</span>
+        </div>
+      </div>
+
+
+    </footer>
+  </div>
+
+  <script src="https://kit.fontawesome.com/f171239f67.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="/all.js"></script>
+
+
+</body>
+
+</html>

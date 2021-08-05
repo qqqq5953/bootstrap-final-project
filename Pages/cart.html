@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/SCSS/all.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap">
+    <nav class="navbar navbar-expand-md navbar-light bg-white py-9 px-sm-12 px-9 d-flex flex-row-reverse flex-md-row">
+      <!-- md以下的購物車 -->
+      <a class="nav-link nav-cart d-md-none d-block p-4 text-dark-green" href="#"><i
+          class="fas fa-shopping-cart"></i></a>
+      <!-- md以上的logo -->
+      <a class="navbar-brand d-md-block d-none logo-dark" href="#">
+        <img class="img-fluid" src="/images/logo-all-dark.svg" />
+      </a>
+      <!-- md以下的logo -->
+      <a class="navbar-brand d-md-none d-block logo-dark-md" href="#">
+        <img class="img-fluid" src="/images/logotype-lg-dark.svg" />
+      </a>
+      <button class="navbar-toggler navbar-menu" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item nav-item-text mr-13" id="home">
+            <a class="nav-link text-dark-green" href="#">首頁 </a>
+          </li>
+          <li class="nav-item nav-item-text mr-13">
+            <a class="nav-link text-dark-green" href="#">甜點</a>
+          </li>
+          <li class="nav-item nav-item-text mr-15">
+            <a class="nav-link text-dark-green" href="#">登入</a>
+          </li>
+          <!-- md以上的購物車 -->
+          <li class="nav-item nav-cart d-md-block d-none">
+            <a class="nav-link text-dark-green p-4" href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="d-sm-flex justify-content-between px-sm-12 px-9 pt-md-9">
+      <section class="cart-Section ">
+        <h3 class="h4 py-5 bg-light-green text-center text-dark-green">您的購物車</h3>
+        <table class="table d-md-block d-none text-dark-green mb-11">
+          <tbody>
+            <tr class="d-block py-7 border-bottom table-borderless">
+              <th scope="row" class="cart-img"></th>
+              <td class="px-lg-11 align-middle">
+                <h2 class="h5 font-weight-light">焦糖馬卡龍</h2>
+                <p class="mb-0">NT$ 450</p>
+              </td>
+              <td class="px-0 align-middle">
+                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">-</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">2</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">+</button>
+                </div>
+              </td>
+              <td class="pl-11 pr-0 h5 align-middle ">NT$ 900</td>
+              <td class="pl-11 pr-0 align-middle"><a href="#" class="d-block py-3"><span
+                    class="material-icons text-green align-middle">
+                    delete_outline
+                  </span></a></td>
+            </tr>
+            <tr class="d-block py-7 border-bottom table-borderless">
+              <th scope="row" class="cart-img"></th>
+              <td class="px-lg-11 align-middle">
+                <h2 class="h5 font-weight-light">焦糖馬卡龍</h2>
+                <p class="mb-0">NT$ 450</p>
+              </td>
+              <td class="px-0 align-middle">
+                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">-</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">2</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">+</button>
+                </div>
+              </td>
+              <td class="pl-11 pr-0 h5 align-middle ">NT$ 900</td>
+              <td class="pl-11 pr-0 align-middle"><a href="#" class="d-block py-3"><span
+                    class="material-icons text-green align-middle">
+                    delete_outline
+                  </span></a></td>
+            </tr>
+            <tr class="d-block py-7 table-borderless">
+              <th scope="row" class="cart-img"></th>
+              <td class="px-lg-11 align-middle">
+                <h2 class="h5 font-weight-light">焦糖馬卡龍</h2>
+                <p class="mb-0">NT$ 450</p>
+              </td>
+              <td class="px-0 align-middle">
+                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">-</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">2</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">+</button>
+                </div>
+              </td>
+              <td class="pl-11 pr-0 h5 align-middle ">NT$ 900</td>
+              <td class="pl-11 pr-0 align-middle"><a href="#" class="d-block py-3"><span
+                    class="material-icons text-green align-middle">
+                    delete_outline
+                  </span></a></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- sm以下的購物車內容-->
+        <ul class="list-unstyled d-md-none">
+          <li>
+            <div class="d-flex mb-2">
+              <div class="cart-img-sm mr-5"></div>
+              <div class="ml-auto">
+                <h2 class="h5 font-weight-light mb-0">焦糖馬卡龍</h2>
+                <p class="mb-2">NT$ 450</p>
+                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">-</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">2</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">+</button>
+                </div>
+              </div>
+            </div>
+            <div class="border-top border-bottom py-2 text-right">NT$ 900</div>
+          </li>
+          <li class="mt-9">
+            <div class="d-flex mb-2">
+              <div class="cart-img-sm mr-5"></div>
+              <div class="ml-auto">
+                <h2 class="h5 font-weight-light mb-0">焦糖馬卡龍</h2>
+                <p class="mb-2">NT$ 450</p>
+                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">-</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">2</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">+</button>
+                </div>
+              </div>
+            </div>
+            <div class="border-top border-bottom py-2 text-right">NT$ 900</div>
+          </li>
+          <li class="mt-9">
+            <div class="d-flex mb-2">
+              <div class="cart-img-sm mr-5"></div>
+              <div class="ml-auto">
+                <h2 class="h5 font-weight-light mb-0">焦糖馬卡龍</h2>
+                <p class="mb-2">NT$ 450</p>
+                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">-</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">2</button>
+                  <button type="button"
+                    class="btn btn-outline-light-green text-dark-green font-weight-light rounded-0">+</button>
+                </div>
+              </div>
+            </div>
+            <div class="border-top border-bottom py-2 text-right">NT$ 900</div>
+          </li>
+        </ul>
+      </section>
+      <section class="order-Section mt-9 mt-sm-0">
+        <div class="order-summary bg-dark-green">
+          <h3 class="order-summary-title h4 py-5 mx-sm-7 mb-0 text-center text-light-green border-bottom">訂單摘要</h3>
+          <ul class="list-unstyled px-6 py-5 mb-0">
+            <li class="order-summary-item d-flex justify-content-between text-white font-weight-light mb-2">
+              <div>小計</div>
+              <div>NT$ 2,700</div>
+            </li>
+            <li class="order-summary-item d-flex justify-content-between text-white font-weight-light mb-5">
+              <div>運費</div>
+              <div>NT$ 300</div>
+            </li>
+            <li class="order-summary-item d-flex justify-content-between font-weight-normal text-white mb-sm-5 mb-0 h5">
+              <div>總計</div>
+              <div>NT$ 3,000</div>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="d-sm-block d-none btn btn-yellow btn-block rounded-0 border-0 py-5 text-dark-green lh-2"
+          style="font-size: 24px;">結帳</a>
+      </section>
+    </main>
+    <!-- sm以下的btn-->
+    <a href="#" class="d-sm-none btn btn-yellow btn-block rounded-0 border-0 py-5 mb-0 text-dark-green h4"
+      style="font-size: 24px;">結帳</a>
+    <footer>
+      <header class="footer-header d-sm-flex bg-dark-green py-9 justify-content-between align-items-center ">
+        <div>
+          <img class="footer-header-logo-light mr-5" src="/images/logo-light.svg" alt="logo-light">
+          <span class="mb-0 text-light-green h4 align-middle">訂閱你我的甜蜜郵件</span>
+        </div>
+        <form class="footer-inputEmail position-relative mt-9 mt-sm-0 mx-sm-0">
+          <input type="email" class="footer-input d-block bg-light-green border-0 rounded-0 mb-0 pl-13 h4">
+          <span class="footer-input-email-icon material-icons text-dark-green  position-absolute">
+            email
+          </span>
+          <a href="#" class="footer-inputBtn position-absolute text-dark-green bg-yellow"><i
+              class="fas fa-arrow-right py-7 px-8"></i></a>
+        </form>
+      </header>
+      <div class="footer-content bg-light-green text-dark-green pt-11 pb-9">
+        <div class="d-flex justify-content-between">
+          <div>
+            <img class="footer-content-logo-dark img-fluid" src="/images/logotype-lg-dark.svg" alt="logoType-lg-dark">
+            <ul class="footer-content-contact-list  list-unstyled mb-0">
+              <li>07-1234-5678</li>
+              <li>sweetaste@email.com</li>
+              <li>800 高雄市新興區幸福路 520 號</li>
+            </ul>
+          </div>
+          <div class="dayToHaveSnack d-sm-block d-none"></div>
+        </div>
+        <div class="d-sm-flex justify-content-between align-items-end mt-9">
+          <ul class="d-flex list-unstyled mb-sm-0 mb-8">
+            <li class="footer-content-socialMedia-logo mr-2"><a href="#"><img src="/images/ic-facebook.svg"
+                  alt="facebook-logo"></a>
+            </li>
+            <li class="footer-content-socialMedia-logo"><a href="#"><img src="/images/ic-line@.svg"
+                  alt="line@-logo"></a></li>
+          </ul>
+          <span>© 2018 Sweetaste* All Rights Reserved</span>
+        </div>
+      </div>
+
+
+    </footer>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/f171239f67.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="/all.js"></script>
+</body>
+
+</html>
